@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="Images/favicon.ico" type="image/png">
     <title>Google</title>
 </head>
@@ -10,54 +11,57 @@
 <body>
     <header>
         <div class="navbar">
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Afbeeldingen</a></li>
-                <li><img src="Images/app icon.png" alt="Google apps"></li>
-                <li><img src="Images/google user.png" alt="Google-account"></li>
-            </ul>
+            <a href="#">Gmail</a>
+            <a href="#">Afbeeldingen</a>
+            <a href="#"></a><img src="Images/app icon.png" alt="Google apps">
+            <a href="#"></a><img src="Images/google user.png" alt="Google-account" id="account">
         </div>
     </header>
     
     <main>
-        <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-        </div>  
-        <form>
-            <div class="searchbar">  
-                <img src="Images/searchglass.png" alt="Search icon">
-                <input type="text" class="search">
-                <img src="Images/microphone.png" alt="Voice Search icon">
-            </div>
-            <div class="searchbuttons">
-                <button>Google zoeken</button>
-                <button>Ik doe een gok</button>
-            </div>
-        </form>
-        <div class="lang">
-            <p>Google aangeboden in:</p>
-            <a href="#">English</a>
-            <a href="#">Frysk</a>
+        <div class="middle">
+            <div class="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            </div>  
+            <form>
+               
+                    <div class="searchbar">  
+                        <img src="Images/searchglass.png" alt="Search icon" class="glass">
+                        <input type="text">
+                        <img src="Images/microphone.png" alt="Voice Search icon" class="mic">
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Google zoeken">
+                        <input type="submit" value="Ik doe een gok">
+                       </form>
+                <div class="lang">
+                    <p>Google aangeboden in:</p>
+                    <a href="#">English</a>
+                    <a href="#">Frysk</a>
+                </div>
         </div>
     </main>
     
     <footer>
-        <div class="Country">
-            <a href="#">Nederland</a>
+        <div class="bottom">
+            <p class="location">Nederland</p>
+            <div class="links">
+                <div class="left">
+                    <ul>
+                        <a href="#">Adverteren</a>
+                        <a href="#">Bedrijf</a>
+                        <a href="#">Over</a>
+                        <a href="#">Hoe Google zoeken werkt</a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <a href="#">Privacy</a>
+                        <a href="#">Voorwaarden</a>
+                        <a href="#">Instellingen</a>
+                </div>        
+            </div>
+           
         </div>
-        <div class="Linksleft">
-            <ul>
-                <li><a href="#">Adverteren</a></li>
-                <li><a href="#">Bedrijf</a></li>
-                <li><a href="#">Over</a></li>
-                <li><a href="#">Hoe Google zoeken werkt</a></li>
-        </div>
-        <div class="Linksright">
-            <ul>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Voorwaarden</a></li>
-                <li><a href="#">Instellingen</a></li>
-        </div>
-    </footer>    
+    </footer>        
 </body>
 </html>
