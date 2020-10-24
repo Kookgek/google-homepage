@@ -1,4 +1,4 @@
-<h1>Google Homepage exercise</h1>
+Google Homepage exercise
 "Google homepage clone" exercise for The Odin Project.<br>
 Live preview: https://kookgek.github.io/google-homepage/
 <br>
